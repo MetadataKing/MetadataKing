@@ -30,26 +30,23 @@ Currently building tools for the **OpenClaw** ecosystem — making self-hosted A
 ---
 
 ### `$ nvidia-smi --query`
-
-`​`​`yaml
+```yaml
 Hardware:
   GPU: NVIDIA GeForce RTX 4070 SUPER (12GB VRAM)
   RAM: 64GB DDR5
-  
+
 Stack:
   Runtime: Ollama + OpenClaw
   Models: qwen2.5:7b, qwen3:8b, deepseek-r1
   Channels: Telegram, TUI
   Tools: Tavily, Brave Search, here.now
-  
+
 Languages:
   - Node.js / JavaScript
   - Python
   - PowerShell
   - Bash
-`​`​`
-
----
+```
 
 ### `$ cat philosophy.md`
 
